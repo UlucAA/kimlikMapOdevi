@@ -85,7 +85,7 @@ static Map<String,KimlikPojo> myMap = new HashMap<>();
         Set<Map.Entry<String, KimlikPojo>> myEntryset=myMap.entrySet();
         myMap.keySet().forEach(System.out::println);
         if(mySet.isEmpty()){
-            System.out.println(sari+"Silmek istediginiz List bostur,\n" +
+            System.out.println(sari+"Gormek istediginiz List bostur,\n" +
                     " Kullanici Listesini gorebilmek icin once bir kimlik eklemeniz gerekir ");
             saveInfo(); }
         System.out.println(yesil+"kullaniciya ait kimlik Bilgilerini almak icin kimlikNo giriniz");
